@@ -1,0 +1,41 @@
+body{
+background: local;
+background-color: rgb(230, 228, 241);
+}
+.head{
+   background-color: black;
+   color: blanchedalmond;
+   border: rgb(255, 217, 0) 10px groove;
+   border-radius: 20px;
+   text-align: center;
+   padding-left: 100%px;
+   width: 30%; center;
+}
+.para{
+    background-color: darkgray;
+    font-size: larger;
+    padding: 50px 50px 50px 50px;
+}
+
+.div{
+    text-align: center;
+    padding-left: 500px;
+}
+.img1{
+    float:inline-start;
+    opacity: .5;
+}
+.img1:hover{
+    opacity: 1;
+}
+.img2{
+    float:inline-end;
+    opacity: .5;
+}
+.img2:hover{
+    float:inline-end;
+    opacity: 1;
+}
+.imgselect{
+    padding-left: 920px;
+}
