@@ -2,20 +2,19 @@
 display: inline;
 margin: 20px;
 list-style-type: none;
-padding: 0;
 border: 1px black; 
 border-style: double;
 background-color: rgb(240, 223, 248);
-
-
+padding-top: 0px;
+padding-bottom: 0px;
 }
 .mainlist{
     padding-left: 700px;
-    background-color: violet;
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
+    padding-right: 80px;
+    background-color: rgb(131, 122, 131);
     position: fixed;
-    
+   /* overflow: auto;*/
+    margin: 0px;
 }
 li a.about{
     background-color: rgb(12, 37, 182);
@@ -24,5 +23,10 @@ li a.about{
 li a:hover:not(.active) {
     background-color:indigo;
     color: white;
-    
+}
+
+.nbar{
+    margin: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
