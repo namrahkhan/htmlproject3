@@ -39,3 +39,6 @@ background-color: rgb(230, 228, 241);
 .imgselect{
     padding-left: 920px;
 }
+.mainlist > .list > li > a{
+    text-decoration: none;
+}
