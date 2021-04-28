@@ -1,0 +1,24 @@
+.list{
+    width: 100px;
+    list-style-type: none;
+    background-color: bisque;
+    font-size: larger;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+
+}
+li a{
+    display: block;
+    padding: 8px 16px;
+    color: #000;
+    text-decoration: none;
+}
+li a.Home{
+    background-color: crimson;
+    color: white;
+}
+li a:hover:not(.active){
+background-color: violet;
+color: white;
+}
