@@ -1,6 +1,10 @@
 body{
-background: local;
-background-color: rgb(230, 228, 241);
+   background-size: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("/img1.jpg") ;
+    background-repeat: no-repeat;
+    
 }
 .head{
    background-color: black;
@@ -23,22 +27,28 @@ background-color: rgb(230, 228, 241);
 }
 .img1{
     float:inline-start;
-    opacity: .5;
+    opacity: 1;
 }
 .img1:hover{
-    opacity: 1;
+    opacity: .5;
 }
 .img2{
     float:inline-end;
-    opacity: .5;
+    opacity: 1;
 }
 .img2:hover{
     float:inline-end;
-    opacity: 1;
+    opacity: .5;
 }
 .imgselect{
     padding-left: 920px;
 }
 .mainlist > .list > li > a{
     text-decoration: none;
+}
+.bkimage{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur();
 }
